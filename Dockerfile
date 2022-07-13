@@ -1,4 +1,4 @@
-FROM python:3.7.10-alpine3.14
+FROM python:3.7.10
 
 ## Step 1:
 # Create a working directory
