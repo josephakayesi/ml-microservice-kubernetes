@@ -7,7 +7,7 @@ jobs:
     build:
         docker:
             # Use the same Docker base as the project
-            - image: python:3.7.3-stretch
+            - image: python:3.7.10-alpine3.14
 
         working_directory: ~/repo
 
@@ -22,13 +22,13 @@ jobs:
                     - v1-dependencies-
     
             - run:
-                name: install dependencies
+                name: Install dependencies
                 command: |
                     python3 -m venv venv
                     . venv/bin/activate
                     make install
                     # Install hadolint
-                    wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
+                    wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-Linux-x86_64 &&\
                     chmod +x /bin/hadolint
             - save_cache:
                 paths:
