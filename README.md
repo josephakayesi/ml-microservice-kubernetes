@@ -1,5 +1,5 @@
 [![josephakayesi](https://circleci.com/gh/josephakayesi/ml-microservice-kubernetes.svg?style=shield)](https://app.circleci.com/insights/github/josephakayesi/ml-microservice-kubernetes/workflows/workflow/jobs?branch=master)
-[!josephakayesi](https://img.shields.io/circleci/build/gh/josephakayesi/ml-microservice-kubernetes/master?style=flat-square)
+![CircleCI](https://img.shields.io/circleci/build/github/josephakayesi/ml-microservice-kubernetes/master?style=flat-square)
 
 ## Project Overview
 
